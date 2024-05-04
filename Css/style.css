@@ -1,4 +1,4 @@
-@import url(../Css/color.css);
+@import url(./Css/color.css);
 
 * {
   padding: 0;
@@ -23,7 +23,7 @@ body {
       var(--background),
       var(--background-add)
     ),
-    url(/Picture/Hintergründe/wood2.jpg);
+    url(../Picture/Hintergründe/wood2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -63,7 +63,7 @@ main {
   align-items: center;
   justify-content: center;
   background-image: radial-gradient(rgba(0, 0, 0, 0) 60%, #86868674),
-    url(/Picture/Hintergründe/originalpan.jpg);
+    url(../Picture/Hintergründe/originalpan.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
