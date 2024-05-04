@@ -1,0 +1,190 @@
+@import url(/Css/color.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*vorübergehend*/
+img {
+  width: 50px;
+}
+
+/*vorübergehend zuende*/
+
+body {
+  padding: 1vh 2vw 1vh 2vw;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.staticBackground {
+  position: fixed;
+  background-image: linear-gradient(
+      90deg,
+      var(--background),
+      var(--background-add)
+    ),
+    url(/Picture/Hintergründe/wood2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+header,
+main,
+footer,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  flex-direction: column;
+}
+#mainUeberschrift {
+  margin: 4vh auto;
+  font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  text-shadow: 1px 2px 1px #d1c1a1d0;
+  text-align: center;
+}
+
+/*Kopfteil mit Pfanne und Überschriften*/
+.headerImg {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  aspect-ratio: 16/9;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 60%, #86868674),
+    url(/Picture/Hintergründe/originalpan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 65%;
+  border-radius: 20px;
+
+  color: rgba(255, 255, 255, 0.882);
+
+  h1 {
+    margin-top: 20%;
+    font-size: 2rem;
+  }
+  h2 {
+    margin-top: 1vh;
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+  }
+  h1,
+  h2,
+  h3 {
+    margin-left: 13vw;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.718);
+  }
+}
+
+/*Navigationsbar*/
+
+nav {
+  height: 10vh;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  margin: 1vh auto;
+}
+ul {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+}
+ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  margin: 2px;
+  border: 1px solid var(--akzente);
+  border-radius: 5px;
+  height: 50%;
+  box-shadow: 0px 5px 10px var(--schatten);
+}
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: var(--akzente);
+  background-color: var(--background);
+  border-radius: 5px;
+}
+ul li:hover {
+  border: 2px solid var(--akzenteHell);
+  box-shadow: 0px 5px 10px #d1c1a198;
+  a {
+    color: var(--akzenteHell);
+  }
+}
+/*Sections allgemein*/
+section {
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid var(--akzente);
+  box-shadow: 0 0 10px #d1c1a198;
+  border-radius: 5px;
+  margin: 1vh auto;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h1 {
+    margin: 1vh auto;
+    font-size: 2.8rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #d1c1a1d0;
+  }
+  h2,
+  h3 {
+    color: var(--schrift);
+    text-shadow: 1px 1px 2px #000000d0;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+/*Aktuelles*/
+.aktuelles_sec img {
+  width: 45%;
+  aspect-ratio: 1/1;
+  margin: 2vh 1vw;
+  box-shadow: 0px 5px 10px var(--schatten);
+  border-radius: 5px;
+}
+.aktuelles_sec p {
+  color: var(--schrift);
+  text-shadow: 1px 1px 2px #000000d0;
+  text-align: center;
+  margin: 2vh 1vw;
+}
