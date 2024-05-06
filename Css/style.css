@@ -13,7 +13,7 @@ img {
 /*vorübergehend zuende*/
 
 body {
-  padding: 1vh 2vw 1vh 2vw;
+  /*padding: 1vh 2vw 1vh 2vw;*/
   font-family: "Roboto Condensed", sans-serif;
 }
 .staticBackground {
@@ -23,7 +23,7 @@ body {
       var(--background),
       var(--background-add)
     ),
-    url(../Picture/Hintergründe/wood2.jpg);
+    url(../Picture/Hintergründe/Beton.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -57,7 +57,7 @@ main {
 .headerImg {
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 100%;
   aspect-ratio: 16/9;
   max-width: 1200px;
   align-items: center;
@@ -130,8 +130,8 @@ ul li a {
   width: 100%;
   height: 100%;
   text-decoration: none;
-  color: var(--akzente);
-  background-color: var(--background);
+  color: var(--schrift);
+  background-color: var(--Sections);
   border-radius: 5px;
 }
 ul li:hover {
@@ -143,13 +143,13 @@ ul li:hover {
 }
 /*Sections allgemein*/
 section {
-  width: 100%;
+  width: 96%;
   max-width: 1200px;
   border: 1px solid var(--akzente);
   box-shadow: 0 0 10px #d1c1a198;
   border-radius: 5px;
-  margin: 1vh auto;
-  background: var(--background);
+  margin: 1vh 2vw;
+  background: var(--Sections);
   display: flex;
   flex-direction: column;
   align-items: center;
