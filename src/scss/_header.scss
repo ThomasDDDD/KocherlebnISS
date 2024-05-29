@@ -1,0 +1,41 @@
+@import "./color";
+
+/*Kopfteil mit Pfanne und Überschriften*/
+.headerImg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 60%, #86868674),
+    url(../Picture/Hintergründe/originalpan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 65%;
+  border-radius: 20px;
+
+  color: rgba(255, 255, 255, 0.882);
+}
+.headerImg h1,
+.headerImg h2 {
+  margin-top: 20%;
+  font-size: 2.5rem;
+}
+.headerImg h3 {
+  margin-top: 1vh;
+  font-size: 0.8rem;
+}
+.headerImg h4 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerImg h2,
+.headerImg h3,
+.headerImg h4 {
+  margin-left: 13vw;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.718);
+}

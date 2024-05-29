@@ -1,0 +1,60 @@
+@import "./color";
+
+/*Sections allgemein*/
+section {
+  width: 96%;
+  max-width: 1200px;
+  border: 1px solid $schatten;
+  box-shadow: 0 0 10px $schatten;
+  border-radius: 5px;
+  margin: 1vh 2vw;
+  padding: 1vh 1vw 2vh 1vw;
+  /* background: var(--Sections); */
+  background-image: linear-gradient(90deg, $Sections, $Sections),
+    url(../Picture/Hintergründe/Beton.jpg);
+  text-align: center;
+}
+section h2 {
+  margin: 1vh auto;
+  font-size: 2.6rem;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 1px 2px 3px $schatten;
+}
+section h3,
+section h4 {
+  color: $schrift;
+  text-shadow: 1px 1px 2px $schatten;
+  font-weight: normal;
+}
+section h3 {
+  font-size: 1.4rem;
+}
+section h4 {
+  font-size: 1.3rem;
+  margin: 2vh auto 1vh auto;
+  width: 90%;
+  padding-bottom: 1vh;
+  border-bottom: 2px solid $trennlinien;
+}
+section p {
+  display: inline-block;
+  color: $schrift;
+  // text-shadow: 1px 1px 2px $schatten;
+  text-align: center;
+  margin: 2vh 4vw;
+  font-size: 1.1rem;
+}
+section a {
+  display: inline-block;
+  color: $links;
+  text-decoration: none;
+  box-shadow: 0 0 15px $rahmen;
+  border: 1px solid $rahmen;
+  border-radius: 8px;
+  margin: 1vh 0 1vh 0;
+  width: 60%;
+  padding: 1vh 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

@@ -1,0 +1,56 @@
+@import "./color";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+/*vorübergehend*/
+img {
+  width: 50px;
+}
+
+/*vorübergehend zuende*/
+
+body {
+  /*padding: 1vh 2vw 1vh 2vw;*/
+  font-family: "Roboto Condensed", sans-serif;
+}
+.staticBackground {
+  position: fixed;
+  background-image: linear-gradient(90deg, $background-add, $background),
+    url(../Picture/Hintergründe/Beton.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+header,
+main,
+footer,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  flex-direction: column;
+}
+#mainUeberschrift {
+  margin: 4vh auto;
+  font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  text-shadow: 1px 5px 5px $schatten;
+  text-align: center;
+  color: $ueberschrift;
+}
+
+/*Aktuelles*/
+
+/*Gutscheine*/
