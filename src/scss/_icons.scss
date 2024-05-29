@@ -4,15 +4,15 @@
 .icons {
   display: flex;
   justify-content: space-evenly;
-}
-.icons a {
-  width: 25%;
-  aspect-ratio: 1/1;
-  font-size: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  box-shadow: 0 0 20px $schatten;
-  border: none;
+  a {
+    width: 25%;
+    aspect-ratio: 1/1;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px $schatten;
+    border: none;
+  }
 }
