@@ -31,10 +31,6 @@
 }
 
 /*vorübergehend*/
-img {
-  width: 50px;
-}
-
 /*vorübergehend zuende*/
 body {
   /*padding: 1vh 2vw 1vh 2vw;*/
@@ -67,7 +63,7 @@ main {
   flex-direction: column;
 }
 
-#mainUeberschrift {
+.mainUeberschrift {
   margin: 4vh auto;
   font-size: 3.5rem;
   font-family: "Dancing Script", cursive;

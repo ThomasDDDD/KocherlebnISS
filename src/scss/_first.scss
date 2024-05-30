@@ -7,9 +7,6 @@
   /* font-size: 62.5%; */
 }
 /*vorübergehend*/
-img {
-  width: 50px;
-}
 
 /*vorübergehend zuende*/
 
@@ -41,7 +38,7 @@ ul {
 main {
   flex-direction: column;
 }
-#mainUeberschrift {
+.mainUeberschrift {
   margin: 4vh auto;
   font-size: 3.5rem;
   font-family: "Dancing Script", cursive;
