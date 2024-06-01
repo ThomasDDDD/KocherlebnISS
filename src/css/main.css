@@ -182,7 +182,7 @@ ul li a {
 }
 ul li:hover {
   border: 2px solid #fabe45;
-  box-shadow: 0px 5px 10px rgba(209, 193, 161, 0.5960784314);
+  box-shadow: 0px 5px 10px #fabe45;
 }
 ul li:hover a {
   color: #590013;
@@ -247,6 +247,11 @@ section a {
   padding: 1vh 0;
   font-size: 1.2rem;
   font-weight: 500;
+}
+section a:hover {
+  border: 1px solid #fabe45;
+  box-shadow: 0px 0px 20px #590013;
+  color: #590013;
 }
 
 /*Grid Img Boxen allgemein*/

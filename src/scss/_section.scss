@@ -56,5 +56,10 @@ section {
     padding: 1vh 0;
     font-size: 1.2rem;
     font-weight: 500;
+    &:hover {
+      border: 1px solid $akzenteHell;
+      box-shadow: 0px 0px 20px $links;
+      color: $links;
+    }
   }
 }

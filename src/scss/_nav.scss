@@ -64,7 +64,7 @@ ul {
   }
   li:hover {
     border: 2px solid $akzenteHell;
-    box-shadow: 0px 5px 10px #d1c1a198;
+    box-shadow: 0px 5px 10px $akzenteHell;
     a {
       color: $links;
     }
