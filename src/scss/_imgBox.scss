@@ -4,11 +4,12 @@
 .boxImg {
   display: grid;
   width: 90%;
-  margin: 1vh auto;
-  padding: 1vh 0;
+  margin: 1vh auto 0 auto;
+  padding: 2vh 0;
   grid-template: 1fr / 1fr 1fr 1fr;
   gap: 10px;
   border-top: 2px solid $trennlinien;
+
   img {
     width: 100%;
     aspect-ratio: 1.2/1;
