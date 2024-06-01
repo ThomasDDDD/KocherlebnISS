@@ -20,13 +20,14 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+--------------------------------------------------------------
 */
-@import "./first";
-@import "./color";
-@import "./header";
-@import "./nav";
-@import "./section";
-@import "./imgBox";
-@import "./icons";
-@import "./gallery";
+@use "./color";
+
+@use "./first";
+@use "./header";
+@use "./nav";
+@use "./section";
+@use "./imgBox";
+@use "./icons";
+@use "./gallery";
