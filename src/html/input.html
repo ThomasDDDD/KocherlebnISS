@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalender-Input</title>
+
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <div class="staticBackground"></div>
+    <main>
+      <section class="input">
+        <form id="form-input">
+          <!--<label for="pre">Vorhandenes oder neu</label>
+          <input type="file" id="pre" name="pre" />-->
+          <label for="date">Datum</label>
+          <input type="date" id="date" name="date" required />
+          <label for="name">Veranstaltungsame</label>
+          <input type="text" id="name" name="name" required />
+          <label for="subtitle">kurzbeschreibung</label>
+          <input type="text" id="subtitle" name="subtitel" required />
+          <!--<label for="img_1">Bild 1</label>
+          <input type="file" id="img_1" name="img_1" />
+          <label for="img-2">Bild 1</label>
+          <input type="file" id="img-2" name="img-2" />
+          <label for="img-3">Bild 1</label>
+          <input type="file" id="img-3" name="img-3" />-->
+          <label for="beschreibung">langbeschreibung</label>
+          <input type="text" id="beschreibung" name="beschreibung" required />
+          <button type="button" id="addEventBtn">
+            Veranstaltung hinzufügen
+          </button>
+        </form>
+        <form id="deleteForm">
+          <label for="sections">Veranstaltung auswählen:</label>
+          <select id="sections" name="sections"></select>
+
+          <button type="button" id="deleteEventBtn">
+            Veranstaltung löschen
+          </button>
+          <button type="button" id="deleteAllEventsBtn">
+            Alle Veranstaltungen löschen
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <script src="../scripts/input.js"></script>
+</html>

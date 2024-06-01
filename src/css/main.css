@@ -424,4 +424,12 @@ section a:hover {
   margin: 0;
 }
 
+/*Importstyler*/
+.input form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding: 10vw;
+}
+
 /*# sourceMappingURL=main.css.map */
