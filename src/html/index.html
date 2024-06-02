@@ -55,8 +55,16 @@
         <div>
           <h3></h3>
           <div class="boxImg aktuelles-grid">
-            <img src="../Picture/Home/1.1.jpg" />
-            <img src="../Picture/Home/2.1.jpg" />
+            <img
+              src="../Picture/Home/1.1.jpg"
+              onclick="openModal();currentSlide(1)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Home/2.1.jpg"
+              onclick="openModal();currentSlide(2)"
+              class="hover-shadow"
+            />
           </div>
           <p>
             3-schichtige Schokoladentorte mit frischen Erdbeeren, leckerer
@@ -73,9 +81,24 @@
           <h4>Alle Kochkurse und Events im Überblick</h4>
           <a href="./Kalender.html">Terminkalender</a>
           <div class="boxImg kalender-grid">
-            <img src="../Picture/Speisen/sushi.jpg" alt="sushi" />
-            <img src="../Picture/Speisen/tapas1.jpg" alt="tapas" />
-            <img src="../Picture/Speisen/Pho.jpg" alt="pho" />
+            <img
+              src="../Picture/Speisen/sushi.jpg"
+              alt="sushi"
+              onclick="openModal();currentSlide(3)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Speisen/tapas1.jpg"
+              alt="tapas"
+              onclick="openModal();currentSlide(4)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Speisen/Pho.jpg"
+              alt="pho"
+              onclick="openModal();currentSlide(5)"
+              class="hover-shadow"
+            />
           </div>
         </div>
       </section>
@@ -90,14 +113,54 @@
           </h4>
           <a href="./Catering.html">Terminanfrage</a>
           <div class="boxImg catering-grid">
-            <img src="../Picture/Catering/catering2.jpg" alt="schälchen" />
-            <img src="../Picture/Catering/catering4.jpg" alt="buffet1" />
-            <img src="../Picture/Catering/catering6.jpg" alt="buffet2" />
-            <img src="../Picture/Speisen/sushi2.jpg" alt="sushi" />
-            <img src="../Picture/Catering/catering3.jpg" alt="buffet3" />
-            <img src="../Picture/Catering/catering7.jpg" alt="buffet4" />
-            <img src="../Picture/Catering/catering1.jpg" alt="sushi" />
-            <img src="../Picture/Catering/catering8.jpg" alt="buffet5" />
+            <img
+              src="../Picture/Catering/catering2.jpg"
+              alt="schälchen"
+              onclick="openModal();currentSlide(6)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Catering/catering4.jpg"
+              alt="buffet1"
+              onclick="openModal();currentSlide(7)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Catering/catering6.jpg"
+              alt="buffet2"
+              onclick="openModal();currentSlide(8)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Speisen/sushi2.jpg"
+              alt="sushi"
+              onclick="openModal();currentSlide(9)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Catering/catering3.jpg"
+              alt="buffet3"
+              onclick="openModal();currentSlide(10)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Catering/catering7.jpg"
+              alt="buffet4"
+              onclick="openModal();currentSlide(11)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Catering/catering1.jpg"
+              alt="sushi"
+              onclick="openModal();currentSlide(12)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Catering/catering8.jpg"
+              alt="buffet5"
+              onclick="openModal();currentSlide(13)"
+              class="hover-shadow"
+            />
           </div>
         </div>
       </section>
@@ -109,7 +172,12 @@
           <h4>Immer eine gute Geschenkidee ist ein Gutschein</h4>
           <a href="./Html/Über_mich.html">Kontaktieren Sie mich gerne</a>
           <div class="boxImg gutschein-grid">
-            <img src="../Picture/Home/anstoßen.jpg" alt="gutschein" />
+            <img
+              src="../Picture/Home/anstoßen.jpg"
+              alt="gutschein"
+              onclick="openModal();currentSlide(14)"
+              class="hover-shadow"
+            />
           </div>
           <p>
             Sie können die Gutscheine ganz individuell in vielen verschiedenen
@@ -128,9 +196,24 @@
           </h4>
           <a href="Events.html">Eventüberblick</a>
           <div class="boxImg event-grid">
-            <img src="../Picture/Speisen/fine1.jpg" alt="finedining" />
-            <img src="../Picture/Speisen/tajine2.jpg" alt="Tajine" />
-            <img src="../Picture/Speisen/pasta4.jpg" alt="pasta" />
+            <img
+              src="../Picture/Speisen/fine1.jpg"
+              alt="finedining"
+              onclick="openModal();currentSlide(15)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Speisen/tajine2.jpg"
+              alt="Tajine"
+              onclick="openModal();currentSlide(16)"
+              class="hover-shadow"
+            />
+            <img
+              src="../Picture/Speisen/pasta4.jpg"
+              alt="pasta"
+              onclick="openModal();currentSlide(17)"
+              class="hover-shadow"
+            />
           </div>
         </div>
       </section>
@@ -171,28 +254,214 @@
             An dein KochErlebnIss - by SteLu wirst du dich mit Sicherheit noch
             lange erinnern !
           </p>
-          <img src="../Picture/Home/anstoßen.jpg" alt="anstossen" />
+          <img
+            src="../Picture/Home/anstoßen.jpg"
+            alt="anstossen"
+            onclick="openModal();currentSlide(14)"
+            class="hover-shadow"
+          />
         </div>
 
         <div class="galleryContent">
           <h3>Neue Leute kennenlernen</h3>
           <p>Hier triffst du auf jeden Fall viele interessante neue Leute.</p>
-          <img src="../Picture/Home/Kochkurs.jpg" alt="kochkurs" />
+          <img
+            src="../Picture/Home/Kochkurs.jpg"
+            alt="kochkurs"
+            onclick="openModal();currentSlide(18)"
+            class="hover-shadow"
+          />
         </div>
 
         <div class="galleryContent">
           <h3>Neues Lieblingsrezept finden</h3>
           <p>Einfach, schnell und lecker - bring neuen Wind in deine Küche.</p>
-          <img src="../Picture/Home/Kochrezept-201020596864.jpg" alt="Rezept" />
+          <img
+            src="../Picture/Home/Kochrezept-201020596864.jpg"
+            alt="Rezept"
+            onclick="openModal();currentSlide(19)"
+            class="hover-shadow"
+          />
         </div>
 
         <div class="galleryContent">
           <h3>Schlemmen und genießen</h3>
           <p>Eins ist sicher - lecker wirds immer.</p>
-          <img src="../Picture/Home/Ich_Küche_1.jpg" alt="chefin" />
+          <img
+            src="../Picture/Home/Ich_Küche_1.jpg"
+            alt="chefin"
+            onclick="openModal();currentSlide(20)"
+            class="hover-shadow"
+          />
         </div>
       </section>
     </main>
     <footer></footer>
+    <!--Gallery Box-->
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1</div>
+          <img src="../Picture/Home/1.1.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2</div>
+          <img src="../Picture/Home/2.1.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3</div>
+          <img src="../Picture/Speisen/sushi.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4</div>
+          <img src="../Picture/Speisen/tapas1.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5</div>
+          <img
+            src="../Picture/Speisen/Pho.jpg"
+            style="object-position: 50% 85%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6</div>
+          <img src="../Picture/Catering/catering2.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7</div>
+          <img src="../Picture/Catering/catering4.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8</div>
+          <img src="../Picture/Catering/catering6.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">9</div>
+          <img src="../Picture/Speisen/sushi2.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">10</div>
+          <img src="../Picture/Catering/catering3.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">11</div>
+          <img src="../Picture/Catering/catering7.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">12</div>
+          <img src="../Picture/Catering/catering1.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">13</div>
+          <img src="../Picture/Catering/catering8.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">14</div>
+          <img src="../Picture/Home/anstoßen.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">15</div>
+          <img src="../Picture/Speisen/fine1.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">16</div>
+          <img
+            src="../Picture/Speisen/tajine2.jpg"
+            style="object-position: 50% 70%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">17</div>
+          <img src="../Picture/Speisen/pasta4.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">18</div>
+          <img src="../Picture/Home/Kochkurs.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">19</div>
+          <img src="../Picture/Home/Kochrezept-201020596864.jpg" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">20</div>
+          <img src="../Picture/Home/Ich_Küche_1.jpg" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <!--
+        <div class="column">
+          <img
+            class="demo"
+            src="../Picture/Home/1.1.jpg"
+            onclick="currentSlide(1)"
+            alt="Nature"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo"
+            src="../Picture/Home/2.1.jpg"
+            onclick="currentSlide(2)"
+            alt="Snow"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo"
+            src="../Picture/Speisen/sushi.jpg"
+            onclick="currentSlide(3)"
+            alt="Snow"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo"
+            src="../Picture/Speisen/tapas.jpg"
+            onclick="currentSlide(4)"
+            alt="Snow"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo"
+            src="../Picture/Speisen/Pho.jpg"
+            onclick="currentSlide(5)"
+            alt="Snow"
+          />
+        </div>-->
+      </div>
+    </div>
+    <script src="../scripts/galleryBox.js"></script>
   </body>
 </html>
