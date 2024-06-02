@@ -1,0 +1,12 @@
+@import "./color";
+
+/*Importstyler*/
+
+.input {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 10vw;
+  }
+}
